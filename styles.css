@@ -2,19 +2,27 @@
     font-family: "AzoSansRegular", "Helvetica Neue", Arial, sans-serif;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    
+}
 
-.fir_container_header {
+
+.nav_container_header {
     background-color: rgb(0, 0, 0);
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 5%;
     display: flex;
     align-items: center;
+    
+
 }
 
 
 .sec_container_header {
-    background-color: rgb(58, 58, 58);
+    background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     width: 90%;
     font-size: 30px;
@@ -25,9 +33,37 @@
     align-items: center;
     justify-content: space-between;
     display: flex;
-    
-
 }
+
+.container_items {
+    display: flex;
+    margin-left: 700px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 200;
+    
+}
+
+.itemheader {
+    box-sizing: content-box;
+    padding: 20px;
+    
+}
+
+#heart {
+    width: 55px;
+}
+
+#compras {
+    width: 50px;
+}
+#usuario {
+    width: 35px;
+    margin-top: auto;
+}
+
+
 
 a {
     color: white;
@@ -41,13 +77,95 @@ a {
 .input_logo {
   padding: 20px 100px;
   border-radius: 8px;
-}
+  box-sizing: content-box;
+  font-size: 2em;
+  }
+
+ ::placeholder {
+    font-size: 0.9em;
+    color: rgb(41, 41, 41);
+  }
+
 .separ_logo {
      padding-right: 20px;
 }
 
 .logo{
     width: 11em;
+}
+
+.yellow-container {
+    background-color: rgb(247, 223, 104);
+    height: 3.5em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.5em;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #7e7ef8;   
+}
+
+.comprar_ahora {
+    color: #7e7ef8;
+    text-decoration: underline;
+    
+}
+
+.pic-section {
+    display: inline-block;
+}
+
+.enlaces-imagen h3{
+    font-family: 'Times New Roman';
+    font-size: 45px;
+    font-weight: lighter;
+    color: #393939;
+    margin-bottom: auto;
+}
+
+
+
+#pic-comprar {
+    color: rgb(58, 58, 58);
+    font-size: 1.8em;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+.section-container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    padding: 50px 7%;
+    gap: 20px;
+}
+
+#pics {
+    width: 660px;
+    height: 800px;
+}
+
+#greenbutton {
+    display: flex;
+    width: 120px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgb(47, 96, 47);
+    border: 1px solid black;
+}
+#greenbutton {
+    font-size: 1em;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    color: grey;
+}
+
+#logo_españa {
+    border: 4px solid white;
+    border-radius: 30px;
+    width: 3rem;
 }
 
 
