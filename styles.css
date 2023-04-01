@@ -342,5 +342,10 @@ footer {
     font-weight: 200;
 }
 
+.footer_item_1:hover {
+    text-decoration: underline;
+}
+
+
 
 
