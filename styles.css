@@ -1,6 +1,12 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+
+  :root {
+  --color_primary: background-color #f7f7f7;
+  }
+
 * {
     font-family: "AzoSansRegular", "Helvetica Neue", Arial, sans-serif;
-    text-decoration: none;
     margin: 0;
     padding: 0;
     border: none;
@@ -8,10 +14,10 @@
 }
 
 
-body {
-    padding-bottom: 4000px;
+.header-container {
+    width: 100%;
+    background-color: black;
 }
-
 
 .nav_container_header {
     background-color: rgb(0, 0, 0);
@@ -136,6 +142,11 @@ a {
     text-decoration: underline;
 }
 
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
 .section-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -144,6 +155,11 @@ a {
     padding: 50px 6%;
     gap: 150px 40px;
     
+}
+
+.section-container h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
 }
 
 #pics {
@@ -210,16 +226,15 @@ div a img {
     padding: 20px;
 }
 
-footer {
-    
-}
-
 .container_footer {
     display: flex;
     background-color: #f7f7f7;
     width: 100%;
     border-bottom: 1px solid #a6a6a6;
+}
 
+footer {
+    background-color: var(--color_primary);
 }
 
 .footer_item_1 {
@@ -237,7 +252,6 @@ footer {
     font-weight: bolder;
     padding-bottom: 20px;
     color: #393939;
-    
 }
 
 .container_footer p {
@@ -265,12 +279,12 @@ footer {
 }
 
 #img_usuario_1 {
-    width: 3.5em;
+    width: 3.0em;
 }
 
 .img_globo_1 {
-   width: 55px;
-   height: 55px;
+   width: 45px;
+   height: 45px;
 }
 
 .section_footer {
@@ -295,8 +309,6 @@ footer {
 .section_footer li {
     padding-bottom: 30px;
     padding-top: 30px;
-    
-    
 }
 
 .footer-section {
@@ -307,6 +319,28 @@ footer {
     font-size: 30px;
 }
 
+.aside {
+  padding-bottom: 100px;
+  background-color: #f7f7f7;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  border-bottom: 1px solid #a6a6a6;
+}
+
+.aside a {
+    padding: 40px 0px 40px 0px;
+    color: rgb(23, 102, 29);
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.aside p {
+    font-size: 30px;
+    font-weight: 200;
+}
 
 
 
