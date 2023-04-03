@@ -13,68 +13,90 @@
     list-style: none;
 }
 
+body {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+/* Header-------Header-------Header-------Header-------Header-------Header-------Header------- */
+
 .header-container {
     width: 100%;
     background-color: black;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+   
 }
 
 .nav_container_header {
-    background-color: rgb(0, 0, 0);
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 5%;
+    background-color: rgb(9, 9, 9);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10%;
     display: flex;
     align-items: center;
+    margin: 0;
+}
+
+.nav_container_header a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    
+    
+    
 }
 
 
 .sec_container_header {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    width: 90%;
-    font-size: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 5%;
+    width: 82%;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10%;
     padding-right: 5%;
     align-items: center;
     justify-content: space-between;
     display: flex;
+    margin: 0;
+
 }
 
-.container_items {
+.separacion {
+    padding-right: 20%;
+}
+
+.item_header {
+    padding-right: 10px;
+    padding-left: 10px;
     display: flex;
-    margin-left: 970px;
     align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    font-weight: 200;
+    justify-content: space-between;
+    font-size: 13px;
     
     
-}
-
-.itemheader {
-    box-sizing: content-box;
-    padding: 20px;
     
 }
 
 #heart {
-    width: 55px;
+    width: 25px;
 }
 
 #compras {
-    width: 50px;
+    width: 22px;
 }
-#usuario {
-    width: 35px;
-    margin-top: auto;
+#logo_usuario {
+    width: 20px;
 }
 
-
-
-a {
-    color: white;
+.sec_container_header a {
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -83,10 +105,10 @@ a {
 }
 
 .input_logo {
-  padding: 20px 100px;
-  border-radius: 8px;
+  padding: 10px 50px;
+  border-radius: 5px;
   box-sizing: content-box;
-  font-size: 2em;
+  font-size: 1em;
   }
 
  ::placeholder {
@@ -98,141 +120,115 @@ a {
      padding-right: 20px;
 }
 
-.logo{
-    width: 11em;
-}
 
-.yellow-container {
-    background-color: rgb(247, 223, 104);
-    height: 3.5em;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    font-size: 1.5em;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 40px;
-    color: #7e7ef8;  
-    border-radius: 10px; 
-}
-
-.comprar_ahora {
-    color: #7e7ef8;
-    text-decoration: underline;
-    
-}
-
-.pic-section {
-    display: inline-block;
-}
-
-.enlaces-imagen h3{
-    font-family: 'Times New Roman';
-    font-size: 45px;
-    font-weight: lighter;
-    color: #393939;
-    margin-bottom: auto;
-}
-
-
-
-#pic-comprar {
-    color: rgb(58, 58, 58);
-    font-size: 1.8em;
-    font-weight: 100;
-    text-decoration: underline;
-}
-
-.main-container {
-    display: flex;
-    justify-content: center;
-}
-
-.section-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 50px;
-    justify-content: space-between;
-    padding: 50px 6%;
-    gap: 150px 40px;
-    
-}
-
-.section-container h3 {
-    font-family: 'Playfair Display', serif;
-    font-weight: lighter;
-}
-
-#pics {
-    width: 660px;
-    height: 800px;
+#logo_españa {
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 1.5rem;
 }
 
 #greenbutton {
     display: flex;
-    width: 250px;
-    height: 30px;
-    border-radius: 10px;
-    background-color: rgb(47, 96, 47);
-    border: 1px solid black;
-}
-#greenbutton {
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: #2f602f;
+    border: 1px solid #2f602f;
     font-size: 1em;
     align-items: center;
     justify-content: center;
     font-weight: 400;
     color: grey;
+    box-sizing: content-box;
+    margin-left: 7px;
+    margin-right: 7px;
 }
 
-#logo_españa {
-    border: 4px solid white;
-    border-radius: 30px;
-    width: 3rem;
-}
-
-#micuenta-logo {
+#mi_cuenta_logo {
     display: flex;
-    align-items: center;
 }
 
-.container_disne {
-    background-color: #7e7ef8;
-    width: 70%;
-}
 
-.items-redes {
-    border-top: 1px solid #a6a6a6;
-    border-bottom: 1px solid #a6a6a6;
-}
+/* Header ------------------------------>>>>>> section */
 
-div a img {
-    width: 50px;
-}
+/* Section-----Section-----Section-----Section-----Section-----Section-----Section-----Section----- */
 
-.redes {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.item-h3 {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    font-size: 1.8em;
-    font-weight: 300;
-}
 
-.redes a {
-    padding: 20px;
-}
+.section-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-right: 150px;
+}     
+    
+#pics {
+        width: 380px;
+        height: 460px;
+    }   
+    
+.pic-section {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }   
+
+    .section-container h3 {
+        font-family: 'Playfair Display', serif;
+        font-weight: lighter;
+        font-size: 1.2em;
+    }
+
+    #pic-comprar {
+        color: rgb(58, 58, 58);
+        font-size: 0.9em;
+        font-weight: 100;
+        text-decoration: underline;
+    }
+
+    #pics {
+        border-radius: 2px;
+    }
+
+    .nav-redes {
+        border-top: 1px solid #a6a6a6;
+        border-bottom: 1px solid #a6a6a6;
+        margin-top: 40px;
+        box-sizing: content-box;
+    }
+
+    .redes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .item-h3 {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        font-size: 0.9em;
+        font-weight: normal;
+    }
+
+    .redes a {
+        padding: 5px;
+    }
+
+    /* Section ------------------------------>>>>>> Footer */
+
+    /* Footer-----------Footer----------- Footer----------- Footer----------- Footer----------- Footer-----------  */
 
 .container_footer {
     display: flex;
     background-color: #f7f7f7;
     width: 100%;
     border-bottom: 1px solid #a6a6a6;
-}
+ }
+
 
 footer {
     background-color: var(--color_primary);
@@ -244,43 +240,54 @@ footer {
     align-items: center;
     justify-content: flex-start;
     box-sizing: border-box;
-    padding-left: 135px;
+    padding-left: 100px;
     
 }
 
 .container_footer h4 {
-    font-size: 30px;
+    font-size: 15px;
     font-weight: bolder;
-    padding-bottom: 20px;
     color: #393939;
 }
 
 .container_footer p {
-    font-size: 25px;
+    font-size: 15px;
     color: #393939;
 }
 
 .footer_item_1 a{
     align-items: center;
-    padding: 40px 40px;
+    padding: 15px 15px;
 }
 
 .footer_item_2 {
     width: 50%;
     display: flex;
     align-items: center;
-    padding-bottom: 70px;
     border-left: 1px solid #a6a6a6;
-    padding-left: 40px;
+    padding-left: 20px;
+    padding-bottom: 30px;
 }
 
 .footer_item_2 p {
-    font-size: 30px;
-    padding-left: 30px;
+    font-size: 15px;
+    padding-left: 10px;
 }
 
+/* 
+
+
+
+
+
+
+
+
+
+
+
 #img_usuario_1 {
-    width: 3.0em;
+    width: 1.8em;
 }
 
 .img_globo_1 {
@@ -296,29 +303,75 @@ footer {
     padding-left: 5%;
     font-size: 27px;
     border-bottom: 1px solid #a6a6a6;
+     }
+
+     .section_items {
+        padding-top: 40px;
+        padding-left: 30px;
+      }
+      
+      .section_footer li a {
+          color: black;
+      }
+      
+      .section_footer li {
+          padding-bottom: 30px;
+          padding-top: 30px;
+      }
+      
+      .footer-section {
+          padding: 20px 0px 20px;
+      }
+      
+      .section_items h5 {
+          font-size: 30px;
+      } */
+
+
+
+
+    /* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div a img {
+    width: 50px;
 }
 
-.section_items {
-  padding-top: 40px;
-  padding-left: 30px;
+
+
+
+
+
+
+
+
+
+
 }
 
-.section_footer li a {
-    color: black;
-}
 
-.section_footer li {
-    padding-bottom: 30px;
-    padding-top: 30px;
-}
-
-.footer-section {
-    padding: 20px 0px 20px;
-}
-
-.section_items h5 {
-    font-size: 30px;
-}
 
 .aside {
   padding-bottom: 100px;
@@ -347,6 +400,15 @@ footer {
     text-decoration: underline;
 }
 
+/* Medias queris */
 
+@media screen and (max-width: 385px) {
+    
+.logo{
+    width: 5em;
+} 
 
+} */
+
+    
 
