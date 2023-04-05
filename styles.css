@@ -175,62 +175,62 @@ body {
 }     
     
 #pics {
-        width: 380px;
-        height: 460px;
-    }   
+    width: 380px;
+    height: 460px;
+}   
     
 .pic-section {
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        justify-content: center;
-    }   
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}   
 
-    .section-container h3 {
-        font-family: 'Playfair Display', serif;
-        font-weight: lighter;
-        font-size: 1.2em;
+.section-container h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    font-size: 1.2em;
+}
+
+#pic-comprar {
+    color: rgb(58, 58, 58);
+    font-size: 0.9em;
+    font-weight: 100;
+    text-decoration: underline;
     }
 
-    #pic-comprar {
-        color: rgb(58, 58, 58);
-        font-size: 0.9em;
-        font-weight: 100;
-        text-decoration: underline;
-    }
+#pics {
+    border-radius: 2px;
+}
 
-    #pics {
-        border-radius: 2px;
-    }
+.nav-redes {
+    border-top: 1px solid var(--color_secundary);
+    border-bottom: 1px solid var(--color_secundary);
+    margin-top: 40px;
+    box-sizing: content-box;
+}
 
-    .nav-redes {
-        border-top: 1px solid var(--color_secundary);
-        border-bottom: 1px solid var(--color_secundary);
-        margin-top: 40px;
-        box-sizing: content-box;
-    }
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-    .redes {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+.item-h3 {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-size: 0.9em;
+    font-weight: normal;
+}
 
-    .item-h3 {
-        display: flex;
-        justify-content: center;
-        padding: 5px;
-        font-size: 0.9em;
-        font-weight: normal;
-    }
+.redes a {
+    padding: 5px;
+}
 
-    .redes a {
-        padding: 5px;
-    }
+/* Section ------------------------------>>>>>> Footer */
 
-    /* Section ------------------------------>>>>>> Footer */
-
-    /* Footer-----------Footer----------- Footer----------- Footer----------- Footer----------- Footer-----------  */
+/* Footer-----------Footer----------- Footer----------- Footer----------- Footer----------- Footer-----------  */
 
 .container_footer {
     display: flex;
@@ -271,6 +271,17 @@ footer {
     padding: 15px 15px;
 }
 
+.footer_item_1 a p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #5a5a5a;
+    padding-top: 5px;
+}
+
+.mi_cuenta_hover:hover {
+    text-decoration: underline rgb(59, 59, 59);
+}
+
 .footer_item_2 {
     width: 50%;
     display: flex;
@@ -293,119 +304,75 @@ footer {
     padding-left: 6%;
     font-size: 14px;
     border-bottom: 1px solid var(--color_secundary);
-     }
+}
 
 
-     .section_items {
-        padding-top: 20px;
-        padding-left: 15px;
+.section_items {
+    padding-top: 20px;
+    padding-left: 15px;
         
-      }
+}
 
-      .section_items li {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    
-      }
+.section_items li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
     
-    .section_footer li a{
-        text-decoration: none;
-        color: rgb(54, 54, 54);
+.section_footer li a{
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+}
+    
+.footer-section {
+    padding: 10px 0px 10px;
+    text-decoration: none;
+}
+    
+.section_items h5 {
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+/* ----- */
+
+.aside {
+    padding-bottom: 20px;
+    background-color: #f7f7f7;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    border-bottom: 1px solid var(--color_secundary);
+}
       
-        
-    }
-    
-    .footer-section {
-        padding: 10px 0px 10px;
-        text-decoration: none;
-    }
-    
-    .section_items h5 {
-        font-size: 1.1em;
-        font-weight: normal;
-    }
-
-    /* ----- */
-
-    .aside {
-        padding-bottom: 20px;
-        background-color: #f7f7f7;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        color: black;
-        flex-direction: column;
-        border-bottom: 1px solid var(--color_secundary);
-      }
+.aside a {
+    padding: 20px 0px 20px 0px;
+    color: rgb(63, 130, 68);
+    font-size: 15px;
+    text-decoration: underline;
+}
       
-      .aside a {
-          padding: 20px 0px 20px 0px;
-          color: rgb(63, 130, 68);
-          font-size: 15px;
-          text-decoration: underline;
-      }
-      
-      .aside p {
-          font-size: 15px;
-          font-weight: 400;
-      }
+.aside p {
+    font-size: 15px;
+    font-weight: 400;
+}
 
    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 /* Medias queris */
 
 @media screen and (max-width: 385px) {
+
+.sec_container_header {
+        display: block;
+
+}
+
     
-.logo{
-    width: 5em;
-} 
 
-} */
 
-    
-
+}
