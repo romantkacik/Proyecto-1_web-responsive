@@ -20,6 +20,25 @@ body {
     box-sizing: border-box;
 }
 
+/* Responsive */
+
+.usuario_responsive {
+    display: none;
+}
+.lupa_responsive {
+    display: none;
+}
+
+.nav_label {
+    display: none;
+}
+
+#menu {
+    display: none;
+}
+
+
+
 
 /* Header-------Header-------Header-------Header-------Header-------Header-------Header------- */
 
@@ -68,11 +87,12 @@ body {
     padding-bottom: 15px;
     padding-left: 8.5%;
     padding-right: 5%;
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
     margin: 0;
 
+}
+
+.sec_container_header .nav-li {
+    display: flex;
 }
 
 .separacion {
@@ -372,7 +392,73 @@ footer {
 
 }
 
-    
+.input_logo {
+display: none;
+}
 
+#mi_cuenta_logo {
+    display: none;
+}
+
+.usuario_responsive {
+    display: flex;
+    padding-right: 8px;
+    
+}
+.lupa_responsive {
+    display: flex;
+    padding-right: 17px;
+    
+    
+}
+#greenbutton {
+    display: none;
+}
+#ayuda {
+    display: none;
+}
+
+.separacion {
+    padding-right: 15%;
+}
+
+
+.nav_label {
+    display: flex;
+    cursor: pointer;
 
 }
+
+.menu_img {
+    background-color: #f7f7f7;
+    width: 2.5em;
+    border-radius: 5px;
+
+}
+.sec_container_header .nav-li  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.sec_container_header .nav-li li {
+    margin: 5px 0px 5px 0px;
+}
+
+
+#menu {
+    background-color: #f7f7f7;
+}
+
+#menu {
+    color: #f7f7f7;
+}
+
+
+/* #menu:checked +ul.nav-li {
+   display: block;
+    
+
+} */
+
