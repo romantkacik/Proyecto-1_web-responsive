@@ -51,7 +51,7 @@ nav .nav_label {
     display: none;
 }
 
-.input_hidden_1, .input_hidden_2, .input_hidden_3 {
+#input_btn_1, #input_btn_2, #input_btn_3 {
     display: none;
 }
 
@@ -365,7 +365,8 @@ footer {
 
 .footer_box h5 {
     font-size: 1.1em;
-    font-weight: normal;
+    font-weight: bold;
+
 }
 
 .footer-section {
@@ -641,9 +642,24 @@ padding-top: 13px;
     display: none;
 }
 
-#input_btn_1:checked ~ #footer-section-1 {
-     display: block;
+.nav_items_1 {
+    display: none;
 }
 
+#input_btn_1:checked + .nav_items_1 {
+    display: block;
+}
+
+#input_btn_2:checked + .nav_items_2 {
+    display: block;
+}
+
+#input_btn_3:checked + .nav_items_3 {
+    display: block;
+}
+
+.aside p {
+    font-size: 12px;
+}
 
 }
